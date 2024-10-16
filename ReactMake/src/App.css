@@ -1,0 +1,66 @@
+@media (max-width: 800px) {
+  .icon-menu{
+      display: flex;
+  }
+  .loginbtn{
+      display: none;
+  }
+  .btn-1{
+      display: none;
+  }
+  .navlinks{
+      display: none;
+  }
+  .heroimg-img{
+      display: none;
+  }
+  .heroimg-img2{
+      display: flex;
+      width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      position: relative;
+  }
+  .hero-content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 20px;
+      margin-left: 0px;
+      height: 100vh;
+      box-sizing: border-box;
+      margin-top: 350px;
+      width: 100%;
+  }
+  
+  .hero-content h1 {
+      margin-bottom: 0px;
+      font-size: 40px;
+  }
+  
+  .hero-content p {
+      margin-bottom: 0px;
+      margin-top: 20px;
+      width:  100%;
+      font-size: 23px;
+      line-height: 30px;
+  }
+  
+  .hero-content .btn-2 {
+      margin-bottom: 0px;
+      margin-top: 40px;
+      width: 100px;
+  }
+  
+  .hero-anc {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      width: 100%;
+  }
+}
